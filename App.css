@@ -26,11 +26,13 @@
 }
 .dropout
 {
+  position: relative;
   flex-direction: column;
   margin-top: 10px;
   border-radius: 5px;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.094);
+  background-color: rgba(148, 148, 148, 0.094);
+  width: 90%;
 }
 
 .this-drop
@@ -71,7 +73,7 @@
 .inside li:hover
 {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.111);
+  background-color: rgba(255, 6, 89, 0.111);
 
 }
 
@@ -174,7 +176,7 @@
 
 .bars-of 
 {
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.118);
   background-color: rgb(255, 255, 255);
   margin-top: 10px;
